@@ -172,7 +172,7 @@
   .tastimonial{
     background-color: rgb(20, 24, 36);
     background-size: cover;
-    height: 450px;
+    height: auto;
     width: 100%;
   }
 
