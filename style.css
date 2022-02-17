@@ -52,6 +52,26 @@
     font-size: 22px;
     margin-bottom: 15px;
   }
+
+  /* responsive */
+  @media only screen and (max-width: 480px) {
+    .header {
+      height: auto;
+      padding: 20px;
+    }
+  
+    .container h1 {
+      font-size: 70px;
+      padding-top: 40px;
+    }
+    
+    .header-content {
+      display: grid;
+      grid-template-columns: 1fr;
+      margin-top: 70px;
+      grid-gap: 5%;
+    }
+  }
   
   /* header END */
   
@@ -106,13 +126,19 @@
   .info h3{
     font-family: "Roboto";
     font-size: 22px;
+    z-index: 1;
+    position: relative;
   }
 
-  
-  .info p{
-    font-family: "Roboto";
-    font-size: 18px;
-    padding-top: 7px;
+  .info h3::before{
+    content: " ";
+    height: 5px;
+    background: #f1c50e;
+    width: 185px;
+    padding: 11px;
+    left: 45px;
+    position: absolute;
+    z-index: -1;
   }
   
   /* access */
@@ -137,6 +163,20 @@
     font-family: "Roboto";
     font-size: 40px;
     margin: 40px 0;
+    z-index: 1;
+    position: relative;
+  }
+
+
+  .check h2::before{
+    content: " ";
+    height: 5px;
+    background: #f1c50e;
+    width: 400px;
+    padding: 25px;
+    left: 90px;
+    position: absolute;
+    z-index: -1;
   }
   
   .Access .check p {
