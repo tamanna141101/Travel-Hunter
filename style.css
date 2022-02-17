@@ -44,7 +44,7 @@
   .header-content {
     display: grid;
     grid-template-columns: 1fr 2fr ;
-    margin-top: 130px;
+    margin-top: 70px;
   }
   
   .header-content h3 {
