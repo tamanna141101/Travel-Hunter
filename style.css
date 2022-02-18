@@ -194,7 +194,7 @@
 }
 .info h3::before {
  
-  width: 300px;
+  width: 200px;
   padding: 15px;
   
 }
@@ -291,7 +291,7 @@
 
 .check h2::before {
   
-  width: 300px;
+  width: 200px;
   padding: 20px; 
 }
 .Access .check p {
@@ -346,7 +346,22 @@
   font-size: 18px;
   padding: 50px 0px 50px 0 ;
 }
+@media only screen and (max-width: 480px) {
+  .tastimonial .part1 {
+    padding: 30px 20px;
+  }
+  .tastimonial .part1 h2 {  
+    font-size: 40px; 
+}
 
+.tastimonial .part1 h3 {
+  font-size: 16px;
+}
+.tastimonial .part1 p {
+  font-size: 16px;
+}
+
+}
 
   /* tastimonial end */
 
@@ -469,7 +484,7 @@
 }
 
 .part2 h2::before { 
-  width: 258px;
+  width: 150px;
   padding: 20px;
 }
 .part2 p {
